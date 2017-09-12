@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px auto;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url(Images/map.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.modal-dialog{
+    margin-top: 250px;
+}
+.modal-dialog label{
+    margin-left: 30px;
+}
+.modal-dialog button#close{
+    margin-top: 10px;
+   margin-right: 200px;
+}
+.modal-dialog button#submit{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.container{
+	height: auto;
+	width: 1000px;
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.site-header{
+	height: auto;
+	width: 100%;
+}
+.site-header .col-md-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.site-header .col-md-4{
+	
+	height: auto;
+}
+.site-header .col-md-2{
+	margin-top: 25px;
+}
+.site-header .icon{
+	font-size: 35px;
+	padding-left: 10px;
+	
+}
+.fa-facebook-official{
+	color:blue;
+}
+.fa-twitter{
+	color:aqua;
+}
+.fa-google-plus-official{
+	color: red;
+}
+.site-header .col-md-5{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 45px;
+	margin-left: 80px;
+}
+.site-header .col-md-5 .icon{
+	font-size: 18px;
+}
+.input-group{
+	width: 100%;
+}
+.active{
+	background:#b1040e;
+}
+.site-nav{
+	clear: both;
+	background-color: black;
+	height: 45px;
+	width: 95%
+}
+.site-nav ul{
+	margin: 0px;
+	padding: 0px;
+        
+	
+}
+ul li{
+	list-style-type: none;
+	display:inline;
+	border-right:2px solid red;
+	float: left;
+ }
+.site-nav ul li a{
+	color: white;
+	line-height: 45px;
+	font-size: 16px;
+	padding: 14px 14px;
+	text-decoration: none;
+	
+	
+}
+.site-nav ul li a:hover{
+	background: #b1040e;
+}   
+/*dropdown */
+.site-nav ul li ul{
+	background: black;
+	
+}
+.site-nav ul li ul li{
+	border: none;
+	
+	float: none;
+}
+	
+.site-nav ul li ul li a{
+	height: 45px;
+	
+}	
+.site-nav ul li ul li a:hover{
+	color: white;
+}	
+.site-section{
+	clear: both;
+	height: auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}	
+.site-section .col-md-8{
+	margin-left: 24px;
+	padding: 0px;
+}
+
+.site-section .col-md-3{
+	background: #C0C0C0;
+    margin-left: 25px;
+	height: 260px;
+}
+.site-section .col-md-3 input{
+	margin-bottom: 10px;
+}
+.site-section .col-md-3 input#form-submit{
+	background:#b1040e;
+	font-size: 16px;
+	color: white;
+}
+.bottom .icon{
+	font-size: 40px;
+	color: red;
+}
+.site-main{
+	clear: both;
+}
+.site-main .col-md-8{
+	margin-top: 10px;
+	padding: 0px;
+	margin-left: 25px;
+}
+.site-main h3{
+	margin-bottom: 0px;
+	color: #b1040e;
+}
+.site-main input{
+	float: right;
+	font-size: 15px;
+	margin-right: 40px;
+	background: black;
+	color: white;
+	padding: 4px;
+}
+
+.site-main .col-md-8 .col-md-3{
+	padding: 0px;
+	margin-left: 37px;
+	
+}
+.site-main .col-md-8 .col-md-3 img{
+	width: 100%;
+	height: 150px;
+}
+.site-main .col-md-8 .col-md-3 a{
+	color:#b1040e; 
+}
+.site-main .latest h3{
+	padding-top: 12px;
+}
+.site-main .col-md-3{
+	margin-left: 25px;
+	margin-top: 13px;
+	padding: 0px;
+	
+}
+/*
+.site-main .col-md-3 ul li{
+	border: none;
+	
+}
+.site-main .col-md-3 ul li a{
+	color: #b1040e;
+}
+
+.site-main .col-md-3 ul li#first p{
+	margin-bottom: 0px;
+}
+.site-main .col-md-3 ul li#second{
+	border-top: dotted;
+	
+}
+.site-main .col-md-3 ul li#third{
+	border-top: dotted;
+	
+}
+.site-main .col-md-3 ul li#fourth{
+	border-top: dotted;
+	
+}
+
+.site-main .col-md-3 ul li#second p{
+	
+	margin-bottom: 0px;
+}
+.site-main .col-md-3 ul li#third p{
+	margin-bottom: 0px;
+}
+.site-main .col-md-3 ul li#fourth p{
+	margin-bottom: 0px;
+}
+*/
+
+.latest_post{float:left; display:inline; width:100%; height:auto;}
+.latest_post > h2{background:none repeat scroll 0 0; color:#b1040e; font-family:'Oswald',sans-serif; font-size:20px; margin-top:5px; font-weight:400; margin-bottom:10px; margin-left:0; padding:0; position:relative; text-align:center; text-transform:uppercase}
+.latest_post > h2 span{padding:4px 10px; background:none;}
+.latest_postnav{height:auto !important; margin-top:20px}
+.latest_postnav li{margin-bottom:10px; float:left; width:100%; border: none;}
+.latest_post_container{display:inline; float:left; height:430px; position:relative; width:100%}
+.latest_post_container:hover #prev-button, .latest_post_container:hover #next-button{display:block}
+#prev-button{cursor:pointer; font-size:20px; left:0; position:absolute; text-align:center; top:-10px; width:100%; display:none; color:#b1040e;}
+#next-button{cursor:pointer; display:none; font-size:20px; left:0; text-align:center; bottom:0; width:100%; color:#b1040e; margin-top:10px;}
+
+.site-sports{
+	clear:both;
+}
+.site-sports input{
+	float: right;
+	font-size: 15px;
+	margin-right: 10px;
+	background: black;
+	color: white;
+	padding: 4px;
+}
+.site-sports .col-md-6{
+	padding: 0px;
+	margin-left: 25px;
+	margin-top: 15px;
+	}
+.site-sports .col-md-6 h3{
+	color: #b1040e;
+	margin-bottom: 0px;
+}
+.site-sports .col-md-6 .col-md-5{
+	padding: 0px;
+	margin-left: 20px;
+}
+.site-sports .col-md-6 .col-md-5 img{
+	width: 100%;
+	height: 150px;
+}
+.site-sports .col-md-6 .col-md-5 a{
+	color: #b1040e;
+}
+.site-sports .col-md-5{
+	padding: 0px;
+	
+	margin-left: 20px;
+	
+	
+}
+.site-sports .col-md-5 video{
+	width: 100%;
+	margin-top: 10px;
+/*	height: 400px;*/
+	
+}
+.site-sports .col-md-5 h5{
+	margin-top: 55px;
+	
+}
+.site-sports .col-md-5 h5 a{
+	color: #b1040e;
+}
+.bottom{
+	margin-left: 650px;
+	margin-bottom:20px;
+}
+.site-entertainment{
+	clear: both;
+	
+}
+.site-entertainment .col-md-12 h3{
+	color: #b1040e;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	margin-top:35px;
+}
+.site-banner img{
+	margin-top: 30px;
+	margin-left: 95px;
+	width: 81%;
+	
+}
+.footer-menu{
+	border-top: dotted;
+	margin-top: 30px;
+}
+.fmenu{
+	margin-top: 40px;
+	margin-left: 240px;
+	
+}
+.footer-menu ul li a{
+	font-size: 14px;
+	padding: 14px 14px;
+	text-decoration: none;
+	color: black;
+}
+.footer-menu ul li a:hover{
+	color: #b1040e;
+}
+.footer-menu ul li#entertain{
+	border: none;
+}
+.copyright{
+	clear: both;
+	
+}
+.copyright p{
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 230px;
+
+}
+
+/*aboutus*/
+
+.site-about section{
+    height: 500px;
+}
+.site-about .col-md-3{
+	background: #C0C0C0;
+    margin-left: 25px;
+	height: 260px;
+        margin-right: 15px;
+        margin-top: 18px;
+}
+.site-about .col-md-3 input{
+	margin-bottom: 10px;
+}

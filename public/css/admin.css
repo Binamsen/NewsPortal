@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px auto;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url(Images/map.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.col-md-4{
+    margin-top: 230px;
+    margin-left: 460px;
+}
+.icon{
+    font-size: 25px;
+    padding-left: 150px;
+}
+.col-md-4 #password{
+ margin-top: 10px;    
+}
+.col-md-4 button{
+    margin-top: 10px;
+}
+
+.site-section{
+    clear: both;
+    float: left;
+}
